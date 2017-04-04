@@ -9,6 +9,6 @@ namespace PatientFloorPlan.API.Repository
 {
     public interface IPatientFloorPlanRepository
     {
-        PatientDrug GetPatientDrug(int epiRowId);
+        PatientOrder GetPatientOrder(string epiRowId);
     }
 }
