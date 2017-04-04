@@ -7,7 +7,7 @@ namespace PatientFloorPlan.API.Models
 {
     public class PatientOrder
     {
-        public List<Order> OnceDay { get; set; }
+        public List<Order> OneDay { get; set; }
         public List<Order> Continue { get; set; }
     }
 }

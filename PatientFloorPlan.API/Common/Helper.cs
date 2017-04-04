@@ -36,7 +36,7 @@ namespace PatientFloorPlan.API.Common
                 orderContinueList.Add(orderContinue);
             }
 
-            ptOrder.OnceDay = orderOneDayList;
+            ptOrder.OneDay = orderOneDayList;
             ptOrder.Continue = orderContinueList;
 
             return ptOrder;
